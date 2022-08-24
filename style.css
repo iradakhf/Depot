@@ -1,0 +1,50 @@
+#NAVIGATION{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#NAVIGATION .textSection{
+   width: 30%;
+}
+
+#NAVIGATION .textSection h2{
+   letter-spacing: 5px;
+   text-align: center;
+}
+
+.general{
+   padding: 2rem 10rem;
+ 
+}
+#NAVIGATION .textSection a{
+   margin: 0rem 1rem;
+   letter-spacing: 1.2px;
+   font-size: 12px;
+   font-weight: 300;
+   text-decoration: none;
+   color: black;
+}
+.change{
+  color: #929292;
+}
+.spacing{
+   letter-spacing: 1.5px;
+}
+
+.sectionOne .one{
+     
+}
+
+.sectionOne{
+
+   padding: 0rem 10rem;
+}
+
+.sectionOne .main{
+   display: flex;
+   justify-content: space-between;
+   background-color: #929292;
+   margin: 0px;
+   
+}
