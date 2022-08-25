@@ -2,10 +2,11 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
+   padding: 0rem 3rem;
 }
 
 #NAVIGATION .textSection{
-   width: 30%;
+   width: 32%;
 }
 
 #NAVIGATION .textSection h2{
@@ -14,7 +15,7 @@
 }
 
 .general{
-   padding: 2rem 10rem;
+   padding: 1rem 4rem;
  
 }
 #NAVIGATION .textSection a{
@@ -26,25 +27,173 @@
    color: black;
 }
 .change{
-  color: #929292;
+  color: #d4d4d4;
 }
 .spacing{
    letter-spacing: 1.5px;
+   padding-left: 4px;
 }
 
 .sectionOne .one{
-     
-}
-
-.sectionOne{
-
-   padding: 0rem 10rem;
-}
-
-.sectionOne .main{
    display: flex;
    justify-content: space-between;
-   background-color: #929292;
-   margin: 0px;
    
 }
+.sectionOne{
+   padding: 0rem 4rem;
+   background-color: #f3f3f3;
+   height: 28rem;
+}
+.sectionOne .one .text{
+   margin-top: 14rem;
+   font-family: 'Catamaran', sans-serif;
+}
+.sectionOne .one .text .pharagraph{
+   font-weight: 300;
+   line-height: 25px;
+   font-size: 16px;
+   color: #929292;
+}
+.sectionOne .one .text h1{
+   font-weight: 600;
+   line-height: 10px;
+   font-size: 34px;
+   letter-spacing: 4px;
+}
+.sectionOne .one .image img{
+   width: 25rem;
+   margin-top: 2rem;
+
+}
+
+#sectionTwo{
+   background-color: white;
+}
+
+#sectionTwo .navigationPart{
+   display: flex;
+   justify-content: space-between;
+}
+#sectionTwo .navigationPart .two{
+   padding: 7rem 4rem 3rem;
+}
+.transparent a{
+   margin: 0rem 1rem;
+   letter-spacing: 1.2px;
+   font-size: 12px;
+   font-weight: 300;
+   text-decoration: none;
+   color: rgb(146, 146, 146);
+   text-transform: uppercase;
+}
+.transparent a:hover{
+   margin: 0rem 1rem;
+   letter-spacing: 1.2px;
+   font-size: 12px;
+   font-weight: 300;
+   text-decoration: none;
+   color: black;
+   text-transform: uppercase;
+   transition-duration: 1s;
+}
+
+.filter{
+   margin: 0rem 1rem;
+   letter-spacing: 1.2px;
+   font-size: 12px;
+   font-weight: 300;
+   text-decoration: none;
+   color: black;
+   text-transform: uppercase;
+   transition-duration: 1s;
+}
+
+.imagesAndTitles{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.imagesAndTitles .boxAll{
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+ 
+}
+
+.imagesAndTitles .box{
+   padding-left: 30px;
+   padding-bottom: 70px;
+   width: 22%;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+} 
+.imagesAndTitles .box img{
+   width: 100%;
+} 
+
+.imagesAndTitles .box p{
+   color: #999;
+   font-size: 14px;
+   line-height: 2px;
+   
+}
+.imagesAndTitles .box span{
+   color: #999;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   text-decoration: line-through;
+}
+
+.imagesAndTitles .box h5 a{
+   color: rgb(8 8 8);
+   text-transform: uppercase;
+  letter-spacing: 2px;
+   font-size: 14px;
+   text-decoration: none;
+   font-weight: 600;
+  line-height: 12px;
+}
+#sectionThree{
+   border-color: #999;
+}
+#sectionThree .sectionThreeGeneral{
+   display: flex;
+   justify-content: space-between;
+   padding: 0rem 4rem;
+}
+#sectionThree .sectionThreeGeneral .box{
+   width: 24%;
+}
+#sectionThree .sectionThreeGeneral .box h4{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: rgb(8 8 8);
+}
+#sectionThree .sectionThreeGeneral .box p{
+   font-family: 'Catamaran', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   text-transform: capitalize;
+   line-height: 14px;
+   color: #999;
+ }
+
+ .sectionFour{
+   display: flex;
+ }
+
+ .sectionFour .box{
+   width: 47%;
+   font-size: 12px;
+   font-weight: 300;
+   color: rgb(146, 146, 146);
+ }
+ .sectionFour .box .second{
+   text-align: right;
+  
+ }
+
